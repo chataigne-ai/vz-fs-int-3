@@ -1,0 +1,16 @@
+[project]
+name = "python-exercise"
+version = "0.1.0"
+description = "WhatsApp burst interview exercise (Python)"
+requires-python = ">=3.10"
+dependencies = [
+  "pytest>=7.4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
